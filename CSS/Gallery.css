@@ -1,0 +1,100 @@
+html * 
+{
+    color: #FFFFFF;
+    font-family: Papyrus;
+}
+
+.navleft 
+{
+    background-color: #000080;
+    box-shadow: 0 5px 5px 0 #475BA5;
+    overflow: hidden;
+}
+  
+.navleft a 
+{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navright a
+{
+    float: right;
+    line-height: 10px;
+}
+  
+.navleft a:hover 
+{
+    background-color: #1434A4;
+}
+  
+.navleft a.active 
+{
+    background-color: #1434A4;
+}
+
+.header 
+{
+    padding: 10px;
+    box-shadow: 0 5px 5px 0 #475BA5;
+    font-size: 30px;
+    text-align: center;
+    background: #000080;
+}
+
+.container img
+{
+    background-color: #1434A4;
+    box-shadow: 0 5px 5px 0 #475BA5;
+    padding: 10px;
+    max-width: 96%;
+    overflow: hidden;
+    float: left;
+    display: flex;
+}
+  
+.media 
+{
+    border: 2px solid #1434A4;
+    box-shadow: 0 5px 5px 0 #475BA5;
+    border-radius: 5px;
+    background-color: #475BA5;
+    max-width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 0.3em;
+    overflow: hidden;
+}
+  
+.media.flipped 
+{
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "content img";
+    float: right;
+}
+  
+.media .image 
+{
+    width: 100%;
+
+    grid-area: auto;
+    display: flex;
+}
+  
+.media .text 
+{
+    font-size: 20px;
+    text-align: left;
+    grid-area: content;
+    padding: 10px;
+    align-items : center;
+    justify-content: center;
+    display: flex;
+}
+
+#waves img
+{
+    width: 100%;
+}
