@@ -1,0 +1,71 @@
+html * 
+{
+    color: #FFFFFF;
+    font-family: Papyrus;
+}
+
+.navleft 
+{
+    background-color: #000080;
+    box-shadow: 0 5px 5px 0 #475BA5;
+    overflow: hidden;
+}
+  
+.navleft a 
+{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navright a
+{
+    float: right;
+    line-height: 10px;
+}
+  
+.navleft a:hover 
+{
+    background-color: #1434A4;
+}
+  
+.navleft a.active 
+{
+    background-color: #1434A4;
+}
+
+.header 
+{
+    padding: 10px;
+    box-shadow: 0 5px 5px 0 #475BA5;
+    font-size: 30px;
+    text-align: center;
+    background: #000080;
+}
+
+#menu img
+{
+    height: 49%;
+    width: 49%;
+    display: block;
+    float: left;
+}
+
+#menu2 img
+{
+    height: 49%;
+    width: 49%;
+    display: block;
+    float: right;
+}
+
+#waves img
+{
+    width: 100%;
+}
+
+#waves2 img
+{
+    width: 100%;
+}
